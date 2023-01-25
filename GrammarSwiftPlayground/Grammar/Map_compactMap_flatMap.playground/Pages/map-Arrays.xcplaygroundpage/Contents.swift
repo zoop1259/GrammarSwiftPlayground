@@ -99,6 +99,16 @@ let users = [
 let names = users.map { $0.name }
 names
 
+// ex1
+let someString = "123456"
+print(someString.map { String($0) + "a" }) // ["1a", "2a", "3a", "4a", "5a", "6a"]
+print(someString.flatMap { String($0) + "a" }) // ["1", "a", "2", "a", "3", "a", "4", "a", "5", "a", "6", "a"]
+
+// ex2
+let arr = [[1,2,3], [3,4,5]]
+print(arr.map { $0 + [0] }) // [[1, 2, 3, 0], [3, 4, 5, 0]]
+print(arr.flatMap { $0 + [0] }) // [1, 2, 3, 0, 3, 4, 5, 0]
+
 /*:
 
  [< Previous](@previous)           [Home](Introduction)           [Next >](@next)
