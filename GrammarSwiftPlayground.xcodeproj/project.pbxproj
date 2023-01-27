@@ -22,6 +22,7 @@
 		C51A6F7E298123D80020733A /* GetterSetter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = GetterSetter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C51A6F7F298125FF0020733A /* CodableDay-38.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "CodableDay-38.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C51A6F802981F9D90020733A /* DateFormatter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DateFormatter.playground; sourceTree = "<group>"; };
+		C51A6F81298239CF0020733A /* NumberFormatter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NumberFormatter.playground; sourceTree = "<group>"; };
 		C5DF4527296AA01400EEB686 /* GrammarSwiftPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrammarSwiftPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5DF452A296AA01400EEB686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5DF452C296AA01400EEB686 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +111,7 @@
 		C5DF453E296AA03200EEB686 /* Grammar */ = {
 			isa = PBXGroup;
 			children = (
+				C51A6F81298239CF0020733A /* NumberFormatter.playground */,
 				C51A6F802981F9D90020733A /* DateFormatter.playground */,
 				C5DF4554296AA09800EEB686 /* 고차함수.playground */,
 				C5DF4552296AA09700EEB686 /* 제네릭.playground */,
