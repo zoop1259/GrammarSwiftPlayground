@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5D9CA4D2988D3F200AF757C /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = C5D9CA4C2988D3F200AF757C /* RxCocoa */; };
+		C5D9CA4F2988D3F200AF757C /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = C5D9CA4E2988D3F200AF757C /* RxRelay */; };
+		C5D9CA512988D3F200AF757C /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C5D9CA502988D3F200AF757C /* RxSwift */; };
 		C5DF452B296AA01400EEB686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF452A296AA01400EEB686 /* AppDelegate.swift */; };
 		C5DF452D296AA01400EEB686 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF452C296AA01400EEB686 /* SceneDelegate.swift */; };
 		C5DF452F296AA01400EEB686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DF452E296AA01400EEB686 /* ViewController.swift */; };
@@ -23,6 +26,14 @@
 		C51A6F7F298125FF0020733A /* CodableDay-38.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "CodableDay-38.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C51A6F802981F9D90020733A /* DateFormatter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DateFormatter.playground; sourceTree = "<group>"; };
 		C51A6F81298239CF0020733A /* NumberFormatter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NumberFormatter.playground; sourceTree = "<group>"; };
+		C5D9CA432988D3CF00AF757C /* FilteringOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilteringOperators.playground; sourceTree = "<group>"; };
+		C5D9CA442988D3D000AF757C /* TransformingOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TransformingOperators.playground; sourceTree = "<group>"; };
+		C5D9CA452988D3D000AF757C /* Traits.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Traits.playground; sourceTree = "<group>"; };
+		C5D9CA462988D3D100AF757C /* rxswiftObservable 2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "rxswiftObservable 2.playground"; sourceTree = "<group>"; };
+		C5D9CA472988D3D200AF757C /* TimeBasedOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TimeBasedOperators.playground; sourceTree = "<group>"; };
+		C5D9CA482988D3D200AF757C /* rxswiftObservable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = rxswiftObservable.playground; sourceTree = "<group>"; };
+		C5D9CA492988D3D300AF757C /* CombiningOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CombiningOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C5D9CA4A2988D3D300AF757C /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; };
 		C5DF4527296AA01400EEB686 /* GrammarSwiftPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrammarSwiftPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5DF452A296AA01400EEB686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5DF452C296AA01400EEB686 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,7 +45,7 @@
 		C5DF453F296AA08F00EEB686 /* Set.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Set.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C5DF4540296AA09000EEB686 /* Protocol의associatedType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Protocol의associatedType.playground"; sourceTree = "<group>"; };
 		C5DF4541296AA09000EEB686 /* codingTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = codingTest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		C5DF4542296AA09000EEB686 /* EscapingClosure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = EscapingClosure.playground; sourceTree = "<group>"; };
+		C5DF4542296AA09000EEB686 /* EscapingClosure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = EscapingClosure.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C5DF4543296AA09100EEB686 /* StructAndClass.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StructAndClass.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C5DF4544296AA09100EEB686 /* typealias.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = typealias.playground; sourceTree = "<group>"; };
 		C5DF4545296AA09200EEB686 /* Protocol확장.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Protocol확장.playground"; sourceTree = "<group>"; };
@@ -58,7 +69,7 @@
 		C5DF4557296AA09900EEB686 /* StructMethod.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StructMethod.playground; sourceTree = "<group>"; };
 		C5DF4558296AA09A00EEB686 /* UnderstandingClosures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = UnderstandingClosures.playground; sourceTree = "<group>"; };
 		C5DF4559296AA09A00EEB686 /* AccessControl.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AccessControl.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		C5DF455A296AA09B00EEB686 /* ErrorMethodPrac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ErrorMethodPrac.playground; sourceTree = "<group>"; };
+		C5DF455A296AA09B00EEB686 /* ErrorMethodPrac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ErrorMethodPrac.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C5DF455B296AA09B00EEB686 /* private(set).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "private(set).playground"; sourceTree = "<group>"; };
 		C5DF455C296AA09C00EEB686 /* contains, forEach, sorted.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "contains, forEach, sorted.playground"; sourceTree = "<group>"; };
 		C5DF455D296AA09C00EEB686 /* StringParsePrac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StringParsePrac.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -71,12 +82,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D9CA512988D3F200AF757C /* RxSwift in Frameworks */,
+				C5D9CA4F2988D3F200AF757C /* RxRelay in Frameworks */,
+				C5D9CA4D2988D3F200AF757C /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5D9CA422988D3B400AF757C /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C5D9CA492988D3D300AF757C /* CombiningOperators.playground */,
+				C5D9CA432988D3CF00AF757C /* FilteringOperators.playground */,
+				C5D9CA462988D3D100AF757C /* rxswiftObservable 2.playground */,
+				C5D9CA482988D3D200AF757C /* rxswiftObservable.playground */,
+				C5D9CA4A2988D3D300AF757C /* Subjects.playground */,
+				C5D9CA472988D3D200AF757C /* TimeBasedOperators.playground */,
+				C5D9CA452988D3D000AF757C /* Traits.playground */,
+				C5D9CA442988D3D000AF757C /* TransformingOperators.playground */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
 		C5DF451E296AA01400EEB686 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +125,7 @@
 		C5DF4529296AA01400EEB686 /* GrammarSwiftPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				C5D9CA422988D3B400AF757C /* RxSwift */,
 				C5DF453E296AA03200EEB686 /* Grammar */,
 				C5DF452A296AA01400EEB686 /* AppDelegate.swift */,
 				C5DF452C296AA01400EEB686 /* SceneDelegate.swift */,
@@ -171,6 +201,11 @@
 			dependencies = (
 			);
 			name = GrammarSwiftPlayground;
+			packageProductDependencies = (
+				C5D9CA4C2988D3F200AF757C /* RxCocoa */,
+				C5D9CA4E2988D3F200AF757C /* RxRelay */,
+				C5D9CA502988D3F200AF757C /* RxSwift */,
+			);
 			productName = GrammarSwiftPlayground;
 			productReference = C5DF4527296AA01400EEB686 /* GrammarSwiftPlayground.app */;
 			productType = "com.apple.product-type.application";
@@ -199,6 +234,9 @@
 				Base,
 			);
 			mainGroup = C5DF451E296AA01400EEB686;
+			packageReferences = (
+				C5D9CA4B2988D3F200AF757C /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = C5DF4528296AA01400EEB686 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -446,6 +484,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C5D9CA4B2988D3F200AF757C /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C5D9CA4C2988D3F200AF757C /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5D9CA4B2988D3F200AF757C /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		C5D9CA4E2988D3F200AF757C /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5D9CA4B2988D3F200AF757C /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		C5D9CA502988D3F200AF757C /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5D9CA4B2988D3F200AF757C /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C5DF451F296AA01400EEB686 /* Project object */;
 }
