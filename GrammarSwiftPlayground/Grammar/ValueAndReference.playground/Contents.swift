@@ -22,10 +22,10 @@ struct Attributes: Hashable {
     var species: Species
 }
 
-func generateEmoji(_ emotion: Emotion, _ species: Species) -> String {
-    let key = Attributes(emotion: emotion, species: species)
-    return key
-}
+//func generateEmoji(_ emotion: Emotion, _ species: Species) -> String {
+//    let key = Attributes(emotion: emotion, species: species)
+//    return key
+//}
 
 
 print("------------------- Value Types --------------------")
@@ -138,4 +138,6 @@ macbookAir.company.name = "Microsoft"
 //값 타입인 구조체는 할당 시 값을 복사하여 유일한 값을 가지기 때문.
 print(iPhone.company.name)     // Apple
 print(macbookAir.company.name) // Microsoft
+
+//
 
